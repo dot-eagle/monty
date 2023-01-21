@@ -2,7 +2,7 @@
 
 
 /**
- * pop - function pop 
+ * pop - function pop
  * @stack: stack
  * @line_number: line number
  */

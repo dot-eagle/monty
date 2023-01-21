@@ -44,7 +44,7 @@ int main(int ac, char **av)
 				funct(&vars_t.h, vars_t.line_number);
 			else
 				return (fprintf(stderr, "L%u: unknown instruction %s\n",
-							vars_t.line_number, opcode)freeAll(), EXIT_FAILURE);
+							vars_t.line_number, opcode),freeAll(), EXIT_FAILURE);
 		} vars_t.line_number++;
 	}
 	return (freeAll(), EXIT_SUCCESS);
